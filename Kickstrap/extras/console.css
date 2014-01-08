@@ -1,4 +1,0 @@
-script#console {
-  content: "<script class=\"extras\">ks.opts.console=(ks.opts.console||true)</script>";
-  ie8: "<script class=\"extras\">ks.opts.console=(ks.opts.console||true)</script>";
-}
