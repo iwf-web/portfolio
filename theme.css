@@ -1,0 +1,258 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #4E4E4E;
+}
+#sf-wrapper {
+  border-top: 2px solid #005aab;
+}
+.btn-primary {
+  background-color: transparent !important;
+  border: none;
+  color: #dc9642;
+  padding: 0px;
+}
+#header {
+  padding: 50px;
+}
+#header #headernav {
+  float: right;
+}
+#header .nav-pills > li.active > a {
+  background-color: #005aab;
+  color: #fff;
+}
+#header a {
+  color: #005aab;
+}
+#header #nav {
+  margin-top: 30px;
+}
+#header #logo {
+  padding-left: 0px;
+}
+.jumbotron {
+  padding: 0px;
+  padding-top: 20px;
+  background-color: #EEE;
+  -moz-box-shadow: inset 0 7px 7px -5px #696868, inset 0 -7px 7px -5px rgba(105, 104, 104, 0.8);
+  -webkit-box-shadow: inset 0 7px 7px -5px #696868, inset 0 -7px 7px -5px rgba(105, 104, 104, 0.8);
+  box-shadow: inset 0 7px 7px -5px #696868, inset 0 -7px 7px -5px rgba(105, 104, 104, 0.8);
+}
+.jumbotron h1 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.jumbotron .text {
+  padding: 30px;
+}
+.jumbotron .title {
+  padding: 15px;
+  width: 100%;
+}
+.jumbotron .title h1 {
+  float: left;
+}
+.jumbotron .title i {
+  font-size: 80px;
+  float: left;
+}
+.jumbotron .title img {
+  position: absolute;
+  right: 15px;
+  margin-top: -56px;
+  height: 200px;
+  opacity: 0.5;
+}
+.jumbotron .title .icon-events {
+  position: absolute;
+  right: 15px;
+  margin-top: -10px;
+  height: 160px;
+  opacity: 0.5;
+}
+.jumbotron .slidesjs-container {
+  max-height: 300px !important;
+}
+.jumbotron .imgwrapper {
+  text-align: center;
+}
+.jumbotron .imgwrapper img {
+  height: 300px;
+}
+#content {
+  color: #4e4e4e;
+  margin-bottom: 80px;
+}
+#content .contenttext {
+  padding: 5px 30px;
+}
+#content .contenttext .texttitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #005aab;
+}
+#content .row {
+  margin-bottom: 20px;
+}
+#slides {
+  display: none;
+}
+#slides .slidesjs-navigation {
+  margin-top: 3px;
+}
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 34%;
+}
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(Kickstrap/img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px;
+}
+#slides a:link,
+#slides a:visited {
+  color: #333333;
+}
+#slides a:hover,
+#slides a:active {
+  color: #9e2020;
+}
+footer {
+  background-color: #005aab;
+  padding: 20px;
+  color: #EEE;
+}
+nav.navbar {
+  background-color: #cdced0;
+  border: none;
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+}
+nav.navbar .dropdown-menu {
+  background-color: #EEE !important;
+}
+nav.navbar .dropdown-menu li a {
+  color: black !important;
+}
+nav.navbar li.dropdown.open a {
+  color: #005aab !important;
+}
+nav.navbar .dropdown-menu li a:hover {
+  color: white !important;
+  background-color: #005aab !important;
+}
+nav.navbar li a {
+  color: #005aab !important;
+  font-size: 16px;
+}
+nav.navbar li a:hover {
+  background-color: #005aab !important;
+  color: #EEE !important;
+}
+.mitglied {
+  background-color: #EEE;
+  height: 120px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+.mitglied .photo {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 20px;
+}
+.mitglied .photo,
+.mitglied .info,
+.mitglied .map {
+  float: left;
+}
+.mitglied .info {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.mitglied .category span {
+  margin-right: 2px;
+}
+.mitglied .label-default {
+  background-color: #005aab;
+}
+.mitglied a {
+  color: #005aab;
+}
+.site {
+  height: auto !important;
+  padding-top: 0px;
+  overflow: hidden;
+}
+.site h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.event-pills > li.active > a {
+  background-color: #005aab;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.event {
+  overflow: hidden;
+  height: 100px;
+  background-color: #EEE;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  padding: 10px;
+}
+.event .map {
+  margin-left: 110px;
+  margin-top: -20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  background: url(Kickstrap/img/map.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+.event .map,
+.event .info {
+  float: left;
+}
+.event .name {
+  font-size: 20px;
+}
