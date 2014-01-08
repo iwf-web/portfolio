@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #4E4E4E;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  border-top: 10px solid darkred;
+}
+#about #photo {
+  background-image: url("Kickstrap/img/me.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+#about #name .realName {
+  font-size: 50px;
+}
+#about #name .twitterName {
+  font-size: 30px;
+}
+#quote {
+  clear: both;
+}
